@@ -20,28 +20,10 @@ export default function Navbar() {
   useEffect(() => {
     setMounted(true)
   }, [])
-
-  const [nav, setnav] = useState(false)
- useEffect(() => {
-  window.onscroll = () => {
-    if (window.scrollY > 237) {
-      setnav(false)
-    } else {
-      setnav(true)
-
-    }
-
-    console.log(window.scrollY);
-  }
- }, [])
-
-
-
   const neumorphicStyle = ""
 
   return (
-    <nav className={`fixed left-0 backdrop-blur-lg border w-full rounded-lg transition-transform ${nav ? "translate-y-0" : "-translate-y-16"
-    } z-50 ${neumorphicStyle} rounded-b-xl`}>
+    <nav className={`fixed left-0 backdrop-blur-lg border w-full rounded-lg transition-transform z-50 ${neumorphicStyle} rounded-b-xl`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <motion.div
