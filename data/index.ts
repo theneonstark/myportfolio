@@ -72,11 +72,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D-Ball Tour to Explore",
-    des: "Explore the wonders of our Ball with this captivating 3D simulation of the planets using GSAP.",
-    img: "/p1.svg",
-    iconLists: ["/ht.svg", "/cs.svg", "/gsap.svg", "js.svg"],
-    link: "/3d-ball-scroll-effect.vercel.app/",
+    title: "StarkStore E-commerce",
+    des: "Stark Store is an innovative and dynamic e-commerce platform designed to offer customers a seamless, convenient, and enjoyable online shopping experience. Powered by cutting-edge technologies like HTML, CSS, JavaScript, PHP, MySQL, Bootstrap, Tailwind, jQuery, AJAX, and more.",
+    img: "/starkstore.png",
+    iconLists: ["/ht.svg", "/cs.svg", '/tail.svg',  "/js.svg", "/php.svg", "/mysql.svg", "jq.svg"],
+    link: "https://starkstore.kesug.com/",
   },
   {
     id: 2,
@@ -88,21 +88,22 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "3D-Ball Tour to Explore",
+    des: "Explore the wonders of our Ball with this captivating 3D simulation of the planets using GSAP.",
+    img: "/ball.png",
+    iconLists: ["/ht.svg", "/cs.svg", "/gsap.svg", "js.svg"],
+    link: "https://3d-ball-scroll-effect.vercel.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Basic Animated Carousel",
+    des: "I create this mini project by utilizing HTML5, CSS3 and Vanilla JS",
+    img: "/headphone.png",
+    iconLists: ["/ht.svg", "/cs.svg", "js.svg"],
+    link: "https://rotater-landing-page.vercel.app/",
   },
 ];
+
 
 export const testimonials = [
   {
