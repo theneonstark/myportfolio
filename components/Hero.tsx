@@ -23,9 +23,6 @@ const Hero = () => {
       </div>
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic With Next.js
-          </h2>
           <LampContainer>
             <motion.h1
               initial={{ opacity: 0.5, y: 100 }}
@@ -35,17 +32,17 @@ const Hero = () => {
                 duration: 0.8,
                 ease: "easeInOut",
               }}
-              className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+              className="flex flex-col items-center justify-center mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
             >
+            <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
+            Dynamic Web Magic With Next.js
+          </h2>
               <h1 className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
                 Build amazing websites <br /> at <Cover>Experience</Cover>
               </h1>
-            </motion.h1>
-          </LampContainer>
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, Im Full-Stack Developer
-          </p>
-
+              <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+                Hi, Im Full-Stack Developer
+              </p>
           <a href="">
             <MagicButoon
               title="Show My Work"
@@ -53,6 +50,9 @@ const Hero = () => {
               position="right"
             />
           </a>
+            </motion.h1>
+          </LampContainer>
+
         </div>
       </div>
     </div>
