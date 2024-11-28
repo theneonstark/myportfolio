@@ -8,7 +8,6 @@ import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { navItems } from "@/data";
 import { useState, useEffect } from "react";
-import { EnhancedSkillsAndExperienceComponent } from "@/components/enhanced-skills-and-experience";
 
 
 export default function Home() {
@@ -23,7 +22,6 @@ export default function Home() {
       <Hero />
       <Grid />
       <RecentProjects />
-      <EnhancedSkillsAndExperienceComponent/>
       <Clients />
       <Experience />
       <Footer />
