@@ -18,7 +18,7 @@ const MagicButton = ({
     if (handleClick) {
       handleClick();
     }
-    window.open("https://github.com/PunitDev0", "_blank"); // Opens the link in a new tab
+    window.open("https://github.com/theneonstark", "_blank"); // Opens the link in a new tab
   };
 
   return (
